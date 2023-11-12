@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "telegrambot"
+version = "0.1.0"
+description = ""
+authors = ["Aleksei Bury <bury1990@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-dotenv = "^1.0.0"
+django-request = "^1.6.3"
+requests = "^2.31.0"
+telebot = "^0.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
